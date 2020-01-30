@@ -31,9 +31,29 @@
 1) 드롭박스 추가
 2) 내용은 유튜브 추가 or 텍스트
 
+----------------------------------------------------------------------
 
 
+패스워드 안보이게
+https://hianna.tistory.com/302
 
+로그인
+https://apost.kr/79
+
+로그인 링크
+https://m.blog.naver.com/rain483/220529222723
+
+검색창
+https://m.blog.naver.com/PostView.nhn?blogId=ymk246&logNo=220900570957&proxyReferer=https%3A%2F%2Fwww.google.com%2F
+
+메뉴바 상단 고정
+https://www.daleseo.com/css-position-fixed-navigation/
+
+메뉴바 생성
+https://ironsky.tistory.com/21
+
+a 링크 변경
+https://coding-factory.tistory.com/179
 
 
 
