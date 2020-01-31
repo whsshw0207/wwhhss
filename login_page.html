@@ -168,7 +168,17 @@
       outline: none;
       float: left;
   }
-  
+                .footer{
+                    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    color: black;
+    background: white;
+
+                }
                 </style>
                  <!-- 상단바 -->
             
@@ -177,7 +187,7 @@
                     <h1 class = "absolute2" style="font-size:23px">Coding Academy</h1>
                 </a>
                     <nav>
-                        <ul>
+                        <ul style=" list-style:none;">
                            
                             <!-- 검색바 -->
                             <li>
@@ -192,15 +202,14 @@
 
                             <!-- 프로필 -->
                             <li>
-                                <img src="/img/user.png" alt="user" class = "absolute" style="width: 34px; height: 34px">
+                                <img src="/img/user.png" alt="user" class = "absolute" style="width: 34px; height: 34px;">
                             </li>
                         </ul>
                     </nav>
         </header>
 
-
-<div class="inner_login">
-    <div class="login_ca">
+    <div class="inner_login">
+        <div class="login_ca">
 
         <form method="post" id="authForm" action="">
             <input type="hidden" name="redirectUrl" value="">
@@ -222,10 +231,29 @@
                 <span class="txt_find">
                 <a href="/member/find/password">Forgot password?</a>
                 </span>
-            </div>
-            
             </fieldset>
         </form>
+                </div>
         
+ 
+<br>
+ 
+    <div class="footer">
+        <hr>
+    <div>
+    <b>&copy;copyright kimminji</b><br>
+        encore@encore.com
     </div>
-</div>
+    <div>
+    <b>&copy;copyright kimminji</b><br>
+        encore@encore.com
+    </div>
+    <div>
+    <b>&copy;copyright kimminji</b><br>
+        encore@encore.com
+    </div>
+    </div>
+
+
+</body>
+</html>
