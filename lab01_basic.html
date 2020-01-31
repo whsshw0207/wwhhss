@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>플레이데이터 맛집 탐방</title>
+    <style>
+        /* 태그 선택자 */
+        body {
+            background-image: url(https://image.flaticon.com/icons/svg/1046/1046806.svg);
+            background-size: 10%;
+        }
+        table, td {
+            border: 1px solid black;
+        }
+        table {
+            border-collapse: collapse;
+            width: 95%;
+        }
+        td {
+            max-width: 180px;
+            height: 40px;
+        }
+        td:hover {
+            background-color: grey;
+            color: white;
+        }
+        td:active {
+            background-color: black;
+            color: white;
+        }
+        td>img {
+            width: 100%;
+        }
+        h1 {
+            color: #393e46;
+            background-color: #a3f7bf;
+            text-align: center;
+        }
+        a:visited {
+            /* visited는 색으로만 구분 가능 */
+            color: white;
+        }
+        a {
+            color: initial;
+            text-decoration: initial;
+        }
+        input[type='text'] {
+            width: 50%;
+        }
+        input[type='text']:focus {
+            background-color: tomato;
+            color: white;
+        }
+        input[type='text']::placeholder {
+            color: royalblue;
+        }
+        /* 클래스 선택자 */
+        .center {
+            margin: auto;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        .vbottom{
+            vertical-align: bottom;
+        }
+        .f20{
+            font-size: 20px;
+        }
+        /* 아이디 선택자 */
+        #wrap {
+            border: 1px solid grey;
+            width: 50%;
+            max-width: 960px;
+            min-width: 720px;
+            background: white url(https://image.flaticon.com/icons/svg/1533/1533908.svg) repeat-x;
+            background-size: 10%;
+        }
+        #firstline{
+            color: white;
+            background-image: linear-gradient(
+                to top right,
+                #9d0b0b 0%,
+                #da2d2d 33%,
+                #eb8242 66%,
+                #f6da63 100%
+              )
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrap" class="center">
+        <h1>플레이데이터 주변 맛집 소개</h1>
+        <table class="center">
+            <tr id="firstline" class="bold vbottom">
+                <td>이름</td>
+                <td>사진</td>
+                <td>주소</td>
+                <td>비고</td>
+            </tr>
+            <tr>
+                <td class="f20"><a href="https://store.naver.com/restaurants/detail?id=287394996" target="blank">맛손식당</a></td>
+                <td><img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fldb.phinf.naver.net%2F20191202_300%2F1575289076628OKIhX_JPEG%2F8bB8oGHDulSIsoYr4xoT4g3c.jpg&type=f&size=780x288"
+                        alt="맛손식당"></td>
+                <td>서울 서초구 서초중앙로8길 85</td>
+                <td>카드 결제 X<br>계좌이체 가능</td>
+            </tr>
+            <tr>
+                <td class="f20"><a href="https://store.naver.com/restaurants/detail?id=11850739" target="blank">중국성</a></td>
+                <td><img src="https://search.pstatic.net/common/?autoRotate=true&quality=95&src=http%3A%2F%2Fldb.phinf.naver.net%2F20150901_108%2F1441055336830jnc5k_JPEG%2F11850739_0.jpg&type=m862_636"
+                        alt="중국성"></td>
+                <td>서울 서초구 서초중앙로8길 136</td>
+                <td>전형적인 중국집</td>
+            </tr>
+        </table>
+        <br>
+        <form action="https://search.naver.com/search.naver?" method="GET" target="blank">
+             맛집 입력 : <input type="text" name="query" placeholder="당신의 맛집을 입력해주세요">
+            <input type="submit" value="맛집 검색">
+        </form>
+        <br>
+    </div>
+</body>
+
+</html>
