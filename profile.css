@@ -1,0 +1,78 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+    height: 75px;
+    padding: 1rem;
+    color: white;
+    background: teal;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h1, p {
+    margin: 0;
+  }
+  
+  main {
+    padding: 1rem;
+    height: 100%;  
+  }
+  
+  body {
+    padding-top: 75px;
+    background: #EEE;
+  }
+  
+  body, html {
+    height: 200%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  input{
+      font-size: 16px;
+      width: 325px;
+      padding: 10px;
+      border: 0px;
+      outline: none;
+      float: left;
+  }
+
+    /* hello */
+    .text1{
+    position: absolute;
+
+    }
+    /* name */
+    .text2{
+    position: absolute;
+
+    }
+    .profile{
+    position: absolute;
+
+    }
+    .text3{
+    position: absolute;
+
+    }
+
+    .point{
+    position: absolute;
+
+    }
+    .money{
+    position: absolute;
+
+    }
+    .coupon{
+    position: absolute;
+        
+    }
