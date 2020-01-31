@@ -52,6 +52,8 @@ https://www.daleseo.com/css-position-fixed-navigation/
 메뉴바 생성
 https://ironsky.tistory.com/21
 
+local storage활용
+
 a 링크 변경
 https://coding-factory.tistory.com/179
 
