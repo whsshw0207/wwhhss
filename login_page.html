@@ -15,7 +15,7 @@
     left: 0;
     right: 0;
     
-    height: 36px;
+    height: 38px;
     padding: 1rem;
     color: white;
     background: rgb(121, 89, 188);
@@ -130,7 +130,7 @@
                 /* ----------------------------------------- */
 
                  /* 상단좌측로고 */
-                 .absolute2{
+                    .absolute2{
                     position:absolute;
                     left : 52px;
                     top : 0px;
@@ -140,45 +140,165 @@
                     img.absolute{
                     position:absolute;
                     left : 1450px;
-                    top : 20px;
+                    top : 17px;
                     }
                     /* 검색바 */
                     .box{
-                        height: 10px;
-                        width: 400px;
-                        border: none;
-                        background: #ffffff;
-                        position: absolute;
-                        left: 271px;
-                        top: 19px;
+                    height: 10px;
+                    width: 400px;
+                    border: none;
+                    background: #ffffff;
+                    position: absolute;
+                    left: 271px;
+                    top: 21px;   
+                    border-radius: 7px 7px;
                     }
-                    
+                    .bar{
+                    font-size: 15px;
+                    width: 500px;
+                    height: 10px;
+                    padding: 10px;
+                    border: 0px;
+                    outline: none;
+                    float: left;
+                    border-radius: 7px 7px;
+                    }
                     /* 검색아이콘 */
                     .absolute3{
                     position:absolute;
-                    left : 820px;
-                    top : 17px;
+                    left : 810px;
+                    top : 21.3px;
                     }
-                    .bar{
-      font-size: 15px;
-      width: 500px;
-      height: 10px;
-      padding: 10px;
-      border: 0px;
-      outline: none;
-      float: left;
-  }
-                .footer{
+                    
+                    .footer{
                     position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding: 15px 0;
-    text-align: center;
-    color: black;
-    background: white;
+                    left: 0;
+                    bottom: 0;
+                    width: 100%;
+                    padding: 15px 0;
+                    text-align: center;
+                    color: black;
+                    background: white;
+                    }
+                    .text1{
+                    font-size: 19px;
+                    position: absolute;
+                    top: 120px;
+                    left : 145px;
+                    color: black;
+                    }
+                    /* 이름 */
+                    .text2{
+                    font-size: 53px;
+                    position: absolute;
+                    top: 115px;
+                    left : 172px;
+                    color: black;
+                    }
+                    .profile{
+                        position: absolute;
+                        top: 115px;
+                    left : 700px;
 
-                }
+
+                    }
+
+
+
+
+
+                    .text3{
+                    font-size: 17px;
+                    position: absolute;
+                    top: 490px;
+                    left : 172px;
+                    color: black;
+                    font-weight: bold;
+                    }
+                    .text4{
+                    font-size: 17px;
+                    position: absolute;
+                    top: 523px;
+                    left : 172px;
+                    color: black;
+                    }
+                    .point{
+                    position: absolute;
+                    top: 200px;
+                    left: 200px;
+                    }
+                    .money{
+                    position: absolute;
+                    top: 200px;
+                    left: 300px;
+                    }
+                    .coupon{
+                    position: absolute;
+                    top: 200px;
+                    left: 400px;
+                    }
+                    .circle_point{
+                        background-color: #fff;
+                        border:3px #a72525 solid;
+                        width: 200px;
+                        height: 200px;
+                        -webkit-border-radius:100px;
+                        -moz-border-radius:100px;
+                        position: absolute;
+                        top: auto;
+                        right: 100px;     
+                    }
+                    .circle_money{
+                        background-color: #fff;
+                        border:3px #a72525 solid;
+                        width: 200px;
+                        height: 200px;
+                        -webkit-border-radius:100px;
+                        -moz-border-radius:100px;
+                        position: absolute;
+                        top: auto;
+                        right: 200px;  
+                    }
+                    .circle_coupon{
+                        background-color: #fff;
+                        border:3px #a72525 solid;
+                        width: 200px;
+                        height: 200px;
+                        -webkit-border-radius:100px;
+                        -moz-border-radius:100px;
+                        position: absolute;
+                        top: auto;
+                        right: 300px;  
+                    }
+                    .category{
+                    font-size: 13px;
+                    }
+                    .vl{ 
+                    border-left: 6px solid black;
+                    height: 500px;
+                    position: absolute;
+                    top: 50px;
+                    left: 200px;
+                    }
+                    .icon_box{
+                    width: 300px; height: 20px; border: 1px solid; padding: 5px; margin: 10px;
+                    position: absolute;
+                    top: 50px;
+                    left: 200px;
+                    }
+                   
+                    .list_1{
+                    width: 300px; height: 20px; border: 1px solid; padding: 5px; margin: 10px;
+                    position: absolute;
+                    top: 300px;
+                    left: 245px;
+                    background-color: aquamarine;
+                    }
+                    .next1{
+                        position:absolute;
+                    left : 510px;
+                    top : 300px;
+                    }
                 </style>
                  <!-- 상단바 -->
             
@@ -196,22 +316,79 @@
 
                             <!-- 검색아이콘 -->
                             </div>
-                                <img src="/img/search.png" alt="search" class = "absolute3" style="width: 34px; height: 34px"> 
+                                <img src="\img/magnifying-glass.png" alt="search" class = "absolute3" style="width: 27px; height: 27px"> 
                                 </div> 
                             </li>    
 
                             <!-- 프로필 -->
                             <li>
-                                <img src="/img/user.png" alt="user" class = "absolute" style="width: 34px; height: 34px;">
+                                <img src="\img/user.png" alt="user" class = "absolute" style="width: 34px; height: 34px;">
                             </li>
                         </ul>
                     </nav>
-        </header>
 
-    <div class="inner_login">
+            
+        </header>
+        <script>
+            window.onload = function() {
+                document.getElementById('myprofileDiv').style.display = "none";
+
+            };
+
+            var function1 = function() {
+                var id = document.getElementById('loginId').value;
+
+                document.getElementById('name').innerHTML = id;
+
+
+                document.getElementById('myprofileDiv').style.display = "block";
+
+                document.getElementById('loginpageDiv').style.display = "none";
+
+            };
+        
+        </script>
+    <div id="myprofileDiv">
+        <!-- Hello! -->
+        <h3 class="text1">Hello!</h3>
+        <!-- 입력된 이름 표시 -->
+        <h1 class="text2" id="name">name</h1>
+        <!-- 사진 밑 회원정보 텍스트 두 줄 추가 / 링크 ebs -->
+        <h1 class="text3">회원정보 수정</h1><br>
+        <h1 class="text4">회원탈퇴</h1>
+
+        <img src="\img\profile.png" alt="profile" class = "profile" style="width: 70px; height: 70px">      
+        
+        <div class="vl"></div> 
+        
+        <!-- 아이콘3  / 링크 ebs -->
+        <div class="icon_box">
+        <!-- point -->
+            <div class="circle_point"></div>
+            <div class="circle_money"></div>
+            <div class="circle_coupon"></div>
+            <img src="\img\parking.png" alt="user" class = "point" style="width: 34px; height: 34px">
+            <img src="\img\coin.png" alt="user" class = "money" style="width: 34px; height: 34px">      
+            <img src="\img\discount-voucher.png" alt="user" class = "coupon" style="width: 34px; height: 34px">
+        </div>
+
+        <!-- 카테고리 5  / 링크 ebs  -->
+        <div class="category">
+        <!-- 장바구니 -->
+        
+        <div id="list" class="list_1">장바구니</div>
+        <img src="\img/next.png" alt="next" class="next1" style="width: 34px; height: 34px;">
+        <div class="list_2">방송 구매 내역</div>
+        <div class="list_3">방송 이용 내역</div>
+        <div class="list_4">수강중인 강좌</div>
+        <div class="list_5">결제내역</div>
+        </div>
+    </div>
+
+    <div class="inner_login" id="loginpageDiv">
         <div class="login_ca">
 
-        <form method="post" id="authForm" action="">
+        <!--<form method="get" id="authForm" action="myprofile.html">-->
             <input type="hidden" name="redirectUrl" value="">
             <fieldset>
             <legend class="screen_out">로그인 정보 입력폼</legend>
@@ -225,14 +402,14 @@
                 <input type="password" id="loginPw" name="password" placeholder="Password" >
                 </div>
             </div>
-            <button type="submit" class="btn_login" onclick="location.href=''">Login</button>
+            <button type="submit" class="btn_login" onclick="function1();" >Login</button>
             
                 </div>
                 <span class="txt_find">
                 <a href="/member/find/password">Forgot password?</a>
                 </span>
             </fieldset>
-        </form>
+        <!--</form>-->
                 </div>
         
  
