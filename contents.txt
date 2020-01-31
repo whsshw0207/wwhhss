@@ -54,6 +54,9 @@ https://ironsky.tistory.com/21
 
 local storage활용
 
+세로선
+https://github.com/codingeverybody/codingyahac/issues/57
+
 a 링크 변경
 https://coding-factory.tistory.com/179
 
