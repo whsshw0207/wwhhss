@@ -163,8 +163,8 @@
         /* 검색아이콘 */
         .absolute3{
         position:absolute;
-        left : 810px;
-        top : 21.3px;
+        left : 803px;
+        top : 23px;
         }
         /* hello */
         .text1{
@@ -383,6 +383,13 @@
             bottom: 20px;
             left : 985px;
         }
+        input.search_button{
+        
+            
+            width: 32px;
+            height: 32px;
+            cursor: pointer;
+        }
         </style>
                  <!-- 상단바 -->
             
@@ -395,13 +402,22 @@
                            
                             <!-- 검색바 -->
                             <li>
+                                <form action="http://www.google.co.kr/search" method="GET" target="blank">
+                                    <p>
                                 <div class="box">
-                                <input type = "text" placeholder="   " class="bar">
+                                <input type = "text" placeholder="   " class="bar" name="query">
+                                </div>
+                                <div class="absolute3">
+                                <button type = "submiit" placeholder="   " style="background: none; border-style: none;"><img src="\img/search.png" alt="" class="search_button">
+                                    </button>
+                                <div>
+                                </p>
 
                             <!-- 검색아이콘 -->
-                            </div>
-                                <img src="\img/magnifying-glass.png" alt="search" class = "absolute3" style="width: 27px; height: 27px"> 
-                                </div> 
+                                 
+                            
+                                
+                            </form>
                             </li>    
 
                             <!-- 프로필 -->
